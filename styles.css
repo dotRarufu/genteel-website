@@ -53,6 +53,10 @@ header > a > .logo {
   object-fit: contain;
 }
 
+header .active {
+  color: #6a197d;
+}
+
 nav > ul {
   list-style-type: none;
 
@@ -121,7 +125,7 @@ footer > .text {
   display: inline;
 }
 
-.platform-links > ul > li > img {
+.platform-links > ul > li > a > img {
   height: 20px;
   width: 23px;
 }
